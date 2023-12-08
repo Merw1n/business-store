@@ -9,8 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.20",
+    "classnames": "^2.3.2",
+    "material-ui": "^0.20.2",
+    "next": "14.0.3",
+    "nextjs-tui-date-picker": "^2.2.1",
     "react": "^18",
+    "react-datetime": "^3.2.0",
+    "react-datetime-picker": "^5.5.3",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-slick": "^0.29.0",
+    "sass": "^1.69.5",
+    "usehooks-ts": "^2.9.1"
   }
 }

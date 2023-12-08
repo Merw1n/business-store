@@ -1,10 +1,25 @@
-import Image from 'next/image'
+import HeroSection from '@/components/HeroSection/HeroSection'
 import styles from './page.module.css'
+import Header from '@/components/Header/Header'
+import AboutSection from '@/components/AboutSection/AboutSection'
+import ServicesSection from '@/components/ServicesSection/ServicesSection'
+import ContactSection from '@/components/ContactSection/ContactSection'
+import Footer from '@/components/Footer/Footer'
+import ReviewsSection from '@/components/ReviewsSection/ReviewsSection'
+import WebinarsSection from '@/components/WebinarsSection/WebinarsSection'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <ReviewsSection />
+      <ContactSection />
+      <WebinarsSection />
+      <Footer />
+      {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.js</code>
@@ -89,7 +104,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }

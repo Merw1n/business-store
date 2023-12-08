@@ -1,0 +1,109 @@
+.sectionContainer {
+    margin: 0 auto;
+    padding: 80px 140px;
+    background-color: #02588B;
+    color: white;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.mainContent {
+    display: flex;
+    gap: 80px;
+}
+
+.leftColumn {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.pick {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    opacity: 0.7;
+    padding: 23px 33px;
+    cursor: pointer;
+    border-left: 2px solid #87A01A;
+}
+
+.pick.active {
+    opacity: 1;
+    border-left: 2px solid white;
+}
+
+.rightColumn {
+    background-image: url("../../public/service.png");
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    background-repeat: no-repeat;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bannerTitle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+
+.bannerText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 75%;
+}
+
+.bannerBtn {
+    background: white;
+    border-radius: 50px;
+    width: fit-content;
+    text-align: center;
+    padding: 14px 32px;
+    color: #87A01A;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+.bannerBtn:hover {
+    border: 2px solid #87A01A;
+    background: transparent;
+}

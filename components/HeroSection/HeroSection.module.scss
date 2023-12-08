@@ -1,0 +1,71 @@
+.heroContainer {
+    height: 850px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContainer:before {
+    background-repeat: no-repeat;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 0;
+    background-size: cover;
+    background: linear-gradient(rgba(15, 17, 29, 0.6), rgba(15, 17, 29, 0.6)), url("../../public/hero.png");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E9ECEB;
+    margin: 8px 0;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E9ECEB;
+    margin: 8px 0;
+}
+
+.list {
+    list-style: disc;
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+    color: #E9ECEB;
+}
+
+.learn {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    background-color: #87A01A;
+    padding: 16px 32px;
+    border-radius: 50px;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    margin: 40px auto 0 auto;
+}
+
+.learn:hover {
+    background-color: transparent;
+    border: 1px solid #87A01A;
+}

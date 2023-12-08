@@ -1,0 +1,63 @@
+.container {
+    padding: 150px 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.paragraphContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242424;
+    margin: 0;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242424;
+}
+
+.quoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.quoteText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #87A01A;
+}
+
+.pointContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.pointText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #121519;
+}

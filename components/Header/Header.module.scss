@@ -1,0 +1,86 @@
+.header {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+}
+
+.booking {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    background-color: #87A01A;
+    padding: 16px 32px;
+    border-radius: 50px;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.booking:hover {
+    background-color: transparent;
+    border: 1px solid #87A01A;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: white;
+}
+
+.navItem {
+    text-align: center;
+    cursor: pointer;
+}
+
+.call {
+    border: 1px solid #87A01A;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 50px;
+    color: white;
+    width: fit-content;
+    margin: 0 32px 0 48px;
+    cursor: pointer;
+}
+
+.call:hover {
+    background-color: #87A01A;
+}
+
+.dropdownContainer {
+    background: white;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 10px;
+    border-radius: 2px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242424;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.dropdownItem {
+    cursor: pointer;
+}
+
+.dropdownItem:hover {
+    color: #87A01A;
+}
