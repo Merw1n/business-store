@@ -82,7 +82,6 @@ const Modal = ({ setModalVisible }) => {
                           ? setDropdownVisible(false)
                           : setDropdownVisible(!dropdownVisible);
                       }}
-                      ref={ref}
                     >
                       <span className={styles.inputText}>{activePick}</span>
                       <span
@@ -102,7 +101,7 @@ const Modal = ({ setModalVisible }) => {
                       </span>
                     </div>
                     {dropdownVisible && (
-                      <ul className={styles.dropdownContainer}>
+                      <ul className={styles.dropdownContainer} ref={ref}>
                         {picks.map((pick, index) => {
                           return (
                             <li
